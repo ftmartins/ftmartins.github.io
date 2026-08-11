@@ -8,39 +8,46 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-inner">
+    <div class="wrap">
+      <header class="site-header">
         <a class="site-name" href="/index.html">Francisco T. Martins</a>
-        <nav aria-label="Main navigation">
+        <nav class="main-nav" aria-label="Main navigation">
           <ul class="nav-links">
-            <li><a href="/about.html">About</a></li>
+            <li><a class="active" aria-current="page" href="/index.html">About</a></li>
             <li><a href="/research.html">Research</a></li>
             <li><a href="/interests.html">Interests</a></li>
             <li><a href="/cv.html">CV</a></li>
             <li><a href="/contact.html">Contact</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
+      </header>
 
-    <main class="page-content">
-      <section class="intro-layout">
+      <main class="page-content">
         <div class="photo-placeholder" aria-label="Profile photo placeholder">
           Add photo
         </div>
-        <div>
-          <h1>Francisco T. Martins</h1>
-          <p class="current-position">Researcher in Computer Science</p>
+
+        <ul class="contact-links">
+          <li><a href="mailto:your-email@example.com">Email</a></li>
+          <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+          <li><a href="https://github.com/ftmartins">GitHub</a></li>
+        </ul>
+
+        <div class="bio">
           <p>
-            I work at the intersection of software engineering and AI systems,
-            with a focus on dependable AI-assisted programming tools.
+            I am a researcher in Computer Science working on software engineering and
+            AI systems for programming.
           </p>
           <p>
-            My current interests include developer productivity, software quality,
-            and practical methods for building trustworthy coding assistants.
+            My work focuses on making AI-assisted development workflows more reliable,
+            transparent, and useful for practitioners, with current interests in
+            developer productivity, software quality, and practical methods for
+            building trustworthy coding assistants.
           </p>
         </div>
-      </section>
-    </main>
+      </main>
+
+      <footer class="site-footer">© 2026 Francisco T. Martins</footer>
+    </div>
   </body>
 </html>

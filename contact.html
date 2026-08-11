@@ -8,27 +8,32 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="header-inner">
+    <div class="wrap">
+      <header class="site-header">
         <a class="site-name" href="/index.html">Francisco T. Martins</a>
-        <nav aria-label="Main navigation">
+        <nav class="main-nav" aria-label="Main navigation">
           <ul class="nav-links">
-            <li><a href="/about.html">About</a></li>
+            <li><a href="/index.html">About</a></li>
             <li><a href="/research.html">Research</a></li>
             <li><a href="/interests.html">Interests</a></li>
             <li><a href="/cv.html">CV</a></li>
             <li><a class="active" aria-current="page" href="/contact.html">Contact</a></li>
           </ul>
         </nav>
-      </div>
-    </header>
+      </header>
 
-    <main class="page-content">
-      <section class="content-section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/ftmartins">github.com/ftmartins</a></p>
-      </section>
-    </main>
+      <main class="page-content">
+        <div class="contact-block">
+          <address>Add your department / institution and mailing address here.</address>
+        </div>
+
+        <div class="contact-block">
+          <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+          <p><a href="https://github.com/ftmartins">github.com/ftmartins</a></p>
+        </div>
+      </main>
+
+      <footer class="site-footer">© 2026 Francisco T. Martins</footer>
+    </div>
   </body>
 </html>
