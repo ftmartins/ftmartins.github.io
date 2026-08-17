@@ -115,7 +115,7 @@ a:hover {
 
 .profile-photo {
   width: 200px;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1.6 / 1;
   object-fit: cover;
   border-radius: 3px;
   margin: 0 0 1.4rem;
